@@ -1,11 +1,12 @@
 print(help('keywords'))
 
 # Variables in Python
-first_name = 'Anna'
-last_name = 'Kopets'
-country = 'Ukraine'
+first_name = input('first name: ')
+last_name = input('last name: ')
+full_name = 'Anna Kopets'
+country = input('country: ')
 city = 'Odesa'
-age = 18
+age = input('age: ')
 is_married = False
 skills = ['HTML', 'CSS', 'JS', 'React', 'Python']
 person_info = {
@@ -15,18 +16,45 @@ person_info = {
    'city':'Odesa'
    }
 
-print('First name:', first_name)
-print('First name length:', len(first_name))
-print('Last name: ', last_name)
-print('Last name length: ', len(last_name))
-print('Country: ', country)
-print('City: ', city)
-print('Age: ', age)
-print('Married: ', is_married)
-print('Skills: ', skills)
-print('Person information: ', person_info)
+print(first_name)
+print(last_name)
+print(country)
+print(age)
 
-num_int = 10
-print(num_int)
-num_str = str(num_int)
-print(num_str)
+# print('First name:', first_name)
+# print('First name length:', len(first_name))
+# print('Last name: ', last_name)
+# print('Last name length: ', len(last_name))
+# print('Country: ', country)
+# print('City: ', city)
+# print('Age: ', age)
+# print('Married: ', is_married)
+# print('Skills: ', skills)
+# print('Person information: ', person_info)
+
+# num_int = 10
+# print(num_int)
+# num_str = str(num_int)
+# print(num_str)
+
+# print(type(first_name))
+# print(len(first_name))
+
+# num_one = len(first_name)
+# print(num_one)
+
+# num_two = len(last_name)
+# print(num_two)
+
+# total = f'{first_name} {last_name}'
+# print(total)
+
+# diff = num_two - num_one
+# print(diff)
+
+# product = num_one * num_two
+# print(product)
+
+# division = num_one / num_two
+# print(division)
+
